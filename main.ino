@@ -2,11 +2,11 @@
 #include <Wire.h>
 #include "mp3tf16p.h"
 #include "RTClib.h"
-#include <DHT.h>
-#include <DHT_U.h>
-#define DHT_PIN 8 
+// #include <DHT.h>
+// #include <DHT_U.h>
+// #define DHT_PIN 8 
 
-DHT dht(DHT_PIN, DHT22);
+// DHT dht(DHT_PIN, DHT22);
 
 RTC_DS1307 rtc;
 
